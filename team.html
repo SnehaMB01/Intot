@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Intot</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="response.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+<div class="row" style="background-color: #c4d70f"color="white";>
+        <div class="container-fluid">
+    
+          <!-- Nav Bar -->
+    
+          <nav class="navbar navbar-expand-lg ">
+    
+            <a class="navbar-brand" href="">INTOT</a>
+            <div class="navbar-collapse" >
+              <div class="nav ml-auto ">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item itemnav">
+                    <a class="nav-link" href="idk.html">
+                      <img src="images/login.png" alt="" />
+                      Login</a>
+                  </li>
+                  <li class="nav-item itemnav">
+                    <a class="nav-link" href="idk.html">
+                      <img src="images/signup.png" alt="" />
+                      Sign Up
+                    </a>
+                  </li>
+                  <li class="nav-item itemnav">
+                    <a class="nav-link" href="">
+                      <img src="images/search-icon.png" alt="" />
+                      
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    
+                    <div id="myNav" class="overlay">
+    
+                      <!-- Button to close the overlay navigation -->
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    
+                      <!-- Overlay content -->
+                      <div class="overlay-content">
+                        <a href="index.html">Home</a>
+                        <a href="team.html">Team</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="#">Contact us</a>
+                      </div>
+                    
+                    </div>
+                    
+                    <!-- Use any element to open/show the overlay navigation menu -->
+                    <span onclick="openNav()">
+                      <input type="image" id="slidepage" src="images/menu.png" class="menuimg">
+                    </span>
+                  </li>
+                </ul>
+    
+            </div>
+          </nav>
+    </div>   
+</div>
+    <section style="margin-top:100px ;" id="team">
+        <div class="container">
+          <h4>OUR TEAM</h4>
+          <p>It is a long established fact that a reader will be distracted by the readable</p>
+        </div>
+        <div class="row" style="margin-left:180px;margin-right: 180px;">
+          <div class="col">
+            <div class="card" style="width: 13rem;border:0px;height: 446px;padding-top: 30px;">
+              <img src="images/team-1.png" class="card-img-top" alt="...">
+              <div class="card-body" style="text-align: center;padding-top: 30px;">
+                <h5 class="card-title">JOHN DOE</h5>
+                <h6>CEO - DESIGNER</h6>
+                <div class="span2">Follow On</div>
+                <div><a href="#" class="butn"><img src="images/facebook-logo-button.png">&nbsp;&nbsp;<img
+                      src="images/twitter-logo-button.png">&nbsp;&nbsp;<img src="images/linkedin.png">&nbsp;&nbsp;<img
+                      src="images/instagram.png"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;border:0px;height: 446px;padding-top: 30px;">
+              <img src="images/team-2.png" class="card-img-top" alt="...">
+              <div class="card-body" style="text-align: center;padding-top: 30px;">
+                <h5 class="card-title">SANDY DOE</h5>
+                <h6>CEO - DESIGNER</h6>
+                <div class="span2">Follow On</div>
+                <div><a href="#" class="butn"><img src="images/facebook-logo-button.png">&nbsp;&nbsp;<img
+                      src="images/twitter-logo-button.png">&nbsp;&nbsp;<img src="images/linkedin.png">&nbsp;&nbsp;<img
+                      src="images/instagram.png"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;border:0px;height: 446px;padding-top: 30px;">
+              <img src="images/team-3.png" class="card-img-top" alt="...">
+              <div class="card-body" style="text-align: center;padding-top: 30px;">
+                <h5 class="card-title">ALEXI DOE</h5>
+                <h6>CEO - DESIGNER</h6>
+                <div class="span2">Follow On</div>
+                <div><a href="#" class="butn"><img src="images/facebook-logo-button.png">&nbsp;&nbsp;<img
+                      src="images/twitter-logo-button.png">&nbsp;&nbsp;<img src="images/linkedin.png">&nbsp;&nbsp;<img
+                      src="images/instagram.png"></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 13rem;border:0px;height: 446px;padding-top: 30px;">
+              <img src="images/team-4.png" class="card-img-top" alt="...">
+              <div class="card-body" style="text-align: center;padding-top: 30px;">
+                <h5 class="card-title">JOHN DOE</h5>
+                <h6>CEO - DESIGNER</h6>
+                <div class="span2">Follow On</div>
+                <div><a href="#" class="butn"><img src="images/facebook-logo-button.png">&nbsp;&nbsp;<img
+                      src="images/twitter-logo-button.png">&nbsp;&nbsp;<img src="images/linkedin.png">&nbsp;&nbsp;<img
+                      src="images/instagram.png"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="divhr">
+          <hr style="color: #c4d70f;height: 2px;" />
+        </div>
+      </section>
+<script type="text/javascript"  src="menu.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
